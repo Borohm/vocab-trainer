@@ -34,7 +34,11 @@ export class ListeMots {
   theme = themeAlpine.withPart(colorSchemeDark);
   @ViewChild('agGrid') grid!: AgGridAngular;
 
-  constructor(private toastr: ToastrService) {}
+  constructor(private toastr: ToastrService) {
+    toastr.toastrConfig.positionClass = 'toast-bottom-center';
+    toastr.toastrConfig.timeOut = 2000;
+    toastr.toastrConfig.progressBar = true;
+  }
 
   ngOnInit() {
     this.getListeMots();
