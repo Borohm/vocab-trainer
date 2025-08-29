@@ -1,0 +1,11 @@
+<div class="flex flex-col h-full">
+  <button (click)="majMots()" class="m-2 w-fit">Mettre à jour les mots</button>
+  <ag-grid-angular
+    #agGrid
+    class="flex-1"
+    [rowData]="listeMots"
+    [defaultColDef]="defaultColDef"
+    [columnDefs]="colDefs"
+    [theme]="theme"
+    (gridReady)="resizeColumns()" />
+</div>

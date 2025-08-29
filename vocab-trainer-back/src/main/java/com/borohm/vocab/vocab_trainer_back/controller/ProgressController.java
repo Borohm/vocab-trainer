@@ -2,6 +2,7 @@ package com.borohm.vocab.vocab_trainer_back.controller;
 
 import java.util.List;
 
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -15,6 +16,7 @@ import com.borohm.vocab.vocab_trainer_back.repository.ProgressRepository;
 import com.borohm.vocab.vocab_trainer_back.service.ProgressService;
 
 @RestController
+@CrossOrigin
 @RequestMapping("/progress")
 public class ProgressController {
   

@@ -38,6 +38,12 @@ public class Word {
   @Column(name = "translation")
   private String translation;
 
+  @Column(name = "example")
+  private String example;
+
+  @Column(name = "example_translation")
+  private String exampleTranslation;
+
   @Column(name = "type")
   @Enumerated(EnumType.STRING)
   private WordType type;

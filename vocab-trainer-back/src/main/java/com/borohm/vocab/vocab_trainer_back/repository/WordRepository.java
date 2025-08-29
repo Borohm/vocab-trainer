@@ -7,5 +7,6 @@ import com.borohm.vocab.vocab_trainer_back.model.Word;
 
 @Repository
 public interface WordRepository extends JpaRepository<Word, Long> {
-
+  public boolean existsByKanaAndKanji(String kana, String kanji);
+  public Word findByKanaAndKanji(String kana, String kanji);
 }

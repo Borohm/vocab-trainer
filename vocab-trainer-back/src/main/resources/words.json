@@ -1,0 +1,20 @@
+[
+  {
+    "kana": "いく",
+    "kanji": "行く",
+    "translation": "Aller",
+    "example": null,
+    "exampleTranslation": null,
+    "type": "VERBE_IRREGULIER",
+    "level": "N5"
+  },
+  {
+    "kana": "たべる",
+    "kanji": "食べる",
+    "translation": "Manger",
+    "example": null,
+    "exampleTranslation": null,
+    "type": "VERBE_ICHIDAN",
+    "level": "N5"
+  }
+]
